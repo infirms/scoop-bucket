@@ -1,0 +1,34 @@
+{
+    "version": "4.1.3",
+    "description": "Fast, lightweight screenshot tool with annotations, OCR, uploads, pinned captures, GIF recording, and MP4 screen recording.",
+    "homepage": "https://github.com/Benoks/EShot",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Benoks/EShot/releases/download/v4.1.3/EShot_Portable_v4.1.3_x64.zip",
+            "hash": "skip"
+        },
+        "arm64": {
+            "url": "https://github.com/Benoks/EShot/releases/download/v4.1.3/EShot_Portable_v4.1.3_ARM64.zip",
+            "hash": "skip"
+        }
+    },
+    "bin": "EShot.exe",
+    "shortcuts": [
+        [
+            "EShot.exe",
+            "EShot"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Benoks/EShot/releases/download/v$version/EShot_Portable_v$version_x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Benoks/EShot/releases/download/v$version/EShot_Portable_v$version_ARM64.zip"
+            }
+        }
+    }
+}
