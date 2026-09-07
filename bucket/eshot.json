@@ -1,12 +1,12 @@
 {
-    "version": "4.3.0",
+    "version": "4.3.1",
     "description": "A feature-rich screenshot tool for Windows",
     "homepage": "https://github.com/Benoks/EShot",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Benoks/EShot/releases/download/v4.3.0/EShot-v4.3.0-x64-portable.zip",
-            "hash": "718295a1af31aebb2b356e24d12d59a5b34da0ddb48436aed50cb5fa72ba0f02"
+            "url": "https://github.com/Benoks/EShot/releases/download/v4.3.1/EShot-v4.3.1-x64-portable.zip",
+            "hash": "b95a1d02630896db37504c0ff7c58aa0eef5d786f9eecfc667a2fb203990af8a"
         }
     },
     "bin": "EShot.exe",
