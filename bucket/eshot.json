@@ -31,6 +31,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Benoks/EShot/releases/download/v$version/EShot-v$version-x64-portable.zip"
+            },
+             "arm64": {
+                "url": "https://github.com/Benoks/EShot/releases/download/v$version/EShot-v$version-arm64-portable.zip"
             }
         }
     }
