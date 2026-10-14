@@ -10,7 +10,7 @@
         },
         "arm64": {
             "url": "https://github.com/Benoks/EShot/releases/download/v4.7.0/EShot-v4.7.0-arm64-portable.zip",
-            "hash": ""
+            "hash": "7e96d5ae8884c37f1907df413fbc4d7cd9b99bc4b43a1f80e164eb974d535fb9"
         }
     },
     "installer": {
