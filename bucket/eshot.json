@@ -1,22 +1,20 @@
 {
-    "version": "4.6.1",
+    "version": "4.7.0",
     "description": "Fast, lightweight Windows and Linux(KDE Plasma 6 and GNOME) screenshot tool with annotations, OCR, uploads, pinned captures, GIF recording, and MP4 screen recording.",
     "homepage": "https://github.com/Benoks/EShot",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Benoks/EShot/releases/download/v4.6.1/EShot-v4.6.1-x64-portable.zip",
-            "hash": "17d432f1284281de45ad0631c877d0a15cdc03e814d3933fe1e9ed173e3100d8"
+            "url": "https://github.com/Benoks/EShot/releases/download/v4.7.0/EShot-v4.7.0-x64-portable.zip",
+            "hash": "7fd0aa304fdb5e32476571e506290f53766dca0f46ea66eba525f20b8c7f6054"
         },
         "arm64": {
             "url": "https://github.com/Benoks/EShot/releases/download/v4.6.1/EShot-v4.6.1-arm64-portable.zip",
-            "hash": "1fe8e8081c0ed303839ca057a13ee82f235c48e1b2ef3b1ffd1a2cd7ff0f1da4"
+            "hash": ""
         }
     },
     "installer": {
-        "script": [
-            "if (!(Test-Path \"$persist_dir\\.portable\")) { Add-Content \"$dir\\.portable\" '' -Encoding Ascii }"
-        ]
+        "script": "if (!(Test-Path \"$persist_dir\\.portable\")) { Add-Content \"$dir\\.portable\" '' -Encoding Ascii }"
     },
     "bin": "EShot.exe",
     "shortcuts": [
@@ -25,9 +23,7 @@
             "EShot"
         ]
     ],
-    "persist": [
-        ".portable"
-    ],
+    "persist": ".portable",
     "checkver": {
         "github": "https://github.com/Benoks/EShot"
     },
