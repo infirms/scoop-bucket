@@ -1,16 +1,16 @@
 {
-    "version": "4.7.0",
+    "version": "4.7.1",
     "description": "Fast, lightweight Windows and Linux(KDE Plasma 6 and GNOME) screenshot tool with annotations, OCR, uploads, pinned captures, GIF recording, and MP4 screen recording.",
     "homepage": "https://github.com/Benoks/EShot",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Benoks/EShot/releases/download/v4.7.0/EShot-v4.7.0-x64-portable.zip",
-            "hash": "7fd0aa304fdb5e32476571e506290f53766dca0f46ea66eba525f20b8c7f6054"
+            "url": "https://github.com/Benoks/EShot/releases/download/v4.7.1/EShot-v4.7.1-x64-portable.zip",
+            "hash": "632e457ef709581e0509b096b4d7681ec25e4feedb8913c5e16ca61ceaf23798"
         },
         "arm64": {
-            "url": "https://github.com/Benoks/EShot/releases/download/v4.7.0/EShot-v4.7.0-arm64-portable.zip",
-            "hash": "7e96d5ae8884c37f1907df413fbc4d7cd9b99bc4b43a1f80e164eb974d535fb9"
+            "url": "https://github.com/Benoks/EShot/releases/download/v4.7.1/EShot-v4.7.1-arm64-portable.zip",
+            "hash": "33003fe8c38fb9dfc85a81c68c6253641b64a4e7dd8b75b5e0135aa522d61e09"
         }
     },
     "installer": {
@@ -32,7 +32,7 @@
             "64bit": {
                 "url": "https://github.com/Benoks/EShot/releases/download/v$version/EShot-v$version-x64-portable.zip"
             },
-             "arm64": {
+            "arm64": {
                 "url": "https://github.com/Benoks/EShot/releases/download/v$version/EShot-v$version-arm64-portable.zip"
             }
         }
